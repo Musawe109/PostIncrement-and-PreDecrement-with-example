@@ -1,0 +1,22 @@
+//Increment and Decrement
+//PostIncrement and PreDecrement
+//PostIncrement Example
+let totalBooks = 10;
+let postIncrement = totalBooks++;
+console.log("Post Increment value:", postIncrement);
+console.log("Post Increment value after increment:", totalBooks);
+//PreIncrement Example 
+let preIncrement = ++totalBooks;
+console.log("Pre Increment value:", preIncrement);
+console.log("Pre Increment value after increment:", totalBooks);
+//Post Decrement Example
+let totalSeats = 150;
+let postDecrement = totalSeats--;
+console.log("Post Decrement value:", postDecrement);
+console.log("Post Decrement value after Decrement:", totalSeats);
+//Pre Decrement Example
+let preDecrement = --totalSeats;
+console.log("Pre Decrement value:", preDecrement);
+console.log("Pre Decrement value after Decrement:", totalSeats);
+export {};
+//Thank you!
